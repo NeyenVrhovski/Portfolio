@@ -1,0 +1,63 @@
+.projectsButton {
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(79, 70, 229);
+  margin: 60px 0 0px 30%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 14px;
+  color: white;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.aboutMainContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutMainContainer .aboutImgContainer {
+  width: 300px;
+  height: auto;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.aboutMainContainer .aboutTextContainer {
+  width: 90%;
+  height: auto;
+  margin: 60px 0 0 0;
+}
+.aboutMainContainer .aboutTextContainer > p {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: justify;
+  color: gray;
+  font-size: 18px;
+  margin: 20px 0 25px 0;
+}
+.aboutMainContainer .aboutTextContainer .courseLink {
+  font-weight: bold;
+  color: rgb(79, 70, 229);
+}
+.aboutMainContainer button {
+  white-space: nowrap;
+}
+
+/*# sourceMappingURL=style.css.map */
