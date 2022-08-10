@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/NeyenVrhovski/async-landing/issues"
   },
-  "homepage": "https://github.com/NeyenVrhovski/async-landing#readme"
+  "homepage": "https://github.com/NeyenVrhovski/async-landing#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "hover.css": "^2.3.2",
+    "sass": "^1.54.3"
+  }
 }

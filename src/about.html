@@ -7,13 +7,13 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="./assets/styles/style.css">
   <link rel="icon" href="./favicon.ico">
-  <title>Inicio - Neyen Vrhovski</title>
+  <title>Sobre Mi - Neyen Vrhovski</title>
 </head>
 
 <body>
   <div class="relative bg-white overflow-hidden">
     <div class="max-w-7xl mx-auto">
-      <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+      <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-16">
         <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
           fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
           <polygon points="50,0 100,0 50,100 0,100" />
@@ -37,25 +37,35 @@
             </nav>
           </div>
         </div>
-        <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-          <div class="sm:text-center lg:text-left">
-            <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-              <span class="block xl:inline">Neyen Vrhovski</span>
-              <span class="block text-indigo-600 xl:inline">@neyenvrhovski</span>
-            </h1>
-            <p
-              class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              Soy un desarrollador Front-End de Argentina. Actualmente trabajo en una empresa de software llamada IT Rock. Con apenas 1 año de experiencia laboral, sigo ávido de aprender a usar nuevas tecnologías y herramientas para seguir profesionalizandome y ser cada día mas productivo.</p>
-              <a href="projects.html"><button class="hvr-bounce-in projectsButton">Ver mis proyectos</button></a>
-          </div>
-        </main>
       </div>
     </div>
-    <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-      <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-        src="./assets/img/profilepicture.png" alt="Neyen Vrhovski">
-    </div>
   </div>
+  <main>
+      <div class="aboutMainContainer">
+        <h1 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl mb-8">
+          <span class="block">Sobre Mi</span>
+        </h1>
+        <div class="aboutImgContainer">
+          <img src="./assets/img/profilepicture.png" alt="Neyen Vrhovski"> 
+        </div>
+        <div class="aboutTextContainer">
+          <p>Soy un desarrollador Front-End de Argentina. Actualmente trabajo en una empresa de software llamada IT Rock. Con apenas 1 año de experiencia laboral, sigo ávido de aprender a usar nuevas tecnologías y herramientas para seguir profesionalizandome y ser cada día mas productivo.</p>
+          <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            <span class="block">Mi Formación</span>
+          </h2>
+          <p>
+            Actualmente estoy cursando la carrera de Desarrollo Front-End con React en Coderhouse, la cual consta de 3 cursos: El primero de desarrollo web (<a target="_blank" href="https://www.coderhouse.com/certificados/6290d832d47a5e0019e5b260" class="courseLink">certificado aqui</a>), en el cual se enseña basicamente HTML5 y CSS3. El segundo de javascript (<a target="_blank" href="" class="courseLink">certificado aqui</a>), y el tercero (el cual estoy cursando actualmente) en el que se enseña React JS. Tambien estoy pensando en anotarme al curso de Angular, y seguramente ver tambien algo de Back-End.
+          </p>
+          <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            <span class="block">Mi experiencia</span>
+          </h2>
+          <p>
+             Desde septiembre del 2021 trabajo en una empresa de software llamada <a target="_blank" href="https://www.linkedin.com/company/itrock/mycompany/verification" class="courseLink">IT Rock</a>. Allí me desempeño como desarrollador front-end, encargandome de maquetar con HTML y CSS, y de dar diversas funcionalidades con javascript utilizando frameworks y librerias como bootstrap o react. <span class="courseLink">Si querés ver mis proyectos clickeá en el botón de abajo!</span>
+          </p>
+        </div>
+        <a href="projects.html"><button class="hvr-bounce-in projectsButton">Ver mis proyectos</button></a>
+      </div>
+  </main>
   <div class="bg-gray-50">
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
       <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">

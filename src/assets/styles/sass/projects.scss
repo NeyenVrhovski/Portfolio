@@ -1,0 +1,63 @@
+.projectsSection
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .projectMainContainer
+    {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0 50px 0;
+        .projectTitleContainer
+        {
+            width: 100%;
+            height: auto;
+        }
+        .projectImgContainer
+        {
+            width: fit-content;
+            height: fit-content;
+            margin: 30px 0 0 0;
+        }
+        .projectInfoContainer
+        {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            p 
+            {
+                font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                text-align: justify;
+                color: gray;
+                font-size: 18px;
+                margin: 20px 0 0 0;
+                .courseLink
+                {
+                    font-weight: bold;
+                    color: rgb(79 70 229);
+                }
+            }
+            .generalInfoContainer
+            {
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                margin: 30px 0 0 0;
+            }
+        }
+    }
+}
+
+.footerContainer
+{
+  a
+  {
+    margin: 0 10px 0 0;
+  }
+}

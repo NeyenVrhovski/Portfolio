@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./assets/styles/style.css">
+  <link rel="icon" href="./favicon.ico">
+  <title>Proyectos - Neyen Vrhovski</title>
+</head>
+
+<body>
+  <div class="relative bg-white overflow-hidden">
+    <div class="max-w-7xl mx-auto">
+      <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-16">
+        <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
+          fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          <polygon points="50,0 100,0 50,100 0,100" />
+        </svg>
+        <div>
+          <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+            <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
+              <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+                <div class="flex items-center justify-between w-full md:w-auto">
+                  <a href="index.html">
+                    <span class="sr-only">Title</span>
+                    <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Icono Principal">
+                  </a>
+                </div>
+              </div>
+              <div class="md:block md:ml-10 md:pr-4 md:space-x-8">
+                <a href="about.html" class="font-medium text-gray-500 hover:text-gray-900 ml-5">Sobre Mi</a>
+                <a href="projects.html" class="font-medium text-gray-500 hover:text-gray-900 ml-5">Proyectos</a>
+                <a href="contact.html" class="font-medium text-gray-500 hover:text-gray-900 ml-5">Contacto</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <main>
+      <section class="projectsSection">
+        <h1 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <span class="block">Mis Proyectos</span>
+        </h1>
+          <div class="projectMainContainer">
+              <div class="projectTitleContainer">
+                <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                  <span class="block text-indigo-600">Del Parque</span>
+                </h2>
+              </div>
+              <div class="projectImgContainer">
+                <img src="./assets/img/banner_delparque.png" alt="Del Parque"/>
+              </div>
+              <div class="projectInfoContainer">
+                <div class="generalInfoContainer">
+                  <h3 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    <span class="block">Descripción general</span>
+                  </h3>
+                  <p>Del Parque es una empresa de bienes raices con origen en Mexico. Ofrecen diversos proyectos de construcción para que los clientes residan o inviertan. Escencialmente es una pagina estática y serverless a excepción de el formulario de contacto, el cual esta integrado con un servicio de mensajería via mail. Particularmente yo desarrollé toda la funcionalidad del cotizador. El mismo cuenta con una integración a una API de la cual recibimos toda la informacion de departamentos y tipologias, para posteriormente mostrarlos en pantalla. También cuenta con la opción de generar tu propio esquema de pagos para el departamento en particular que elijas, para luego generar un PDF con los datos o enviarlos por mail. <a target="_blank" href="https://delparque.mx/" class="courseLink">Podés ver el proyecto acá</a>.</p>
+                </div>
+                <div class="generalInfoContainer">
+                  <h3 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    <span class="block">Tecnologías usadas</span>
+                  </h3>
+                  <p>El proyecto esta construido con React JS y utilizando también Typescript. También utiliza Next JS para mejorar las prácticas de SEO de las cuales carece React nativo, y finalmente para aplicar estilos utiliza el pre-procesador SASS</p>
+                </div>
+              </div>
+          </div>
+        <div class="projectMainContainer">
+          <div class="projectTitleContainer">
+            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              <span class="block text-indigo-600">Puertos</span>
+            </h2>
+          </div>
+          <div class="projectImgContainer">
+            <img src="./assets/img/banner_puertos.png" alt="Puertos"/>
+          </div>
+          <div class="projectInfoContainer">
+            <div class="generalInfoContainer">
+              <h3 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                <span class="block">Descripción general</span>
+              </h3>
+              <p>Puertos es una landing page administrada por Consultatio S.A., una empresa de bienes raices. Puntualmente Puertos es uno de los barrios que Consultatio administra. La landing page de Puertos tiene una integración con la API de google maps para mostrar, en distintos mapas, los distintos lotes que tiene el barrio en cuestión. Tambien esta integrada con un backoffice desde donde el personal de Consultatio puede administrar las imagenes, las descripciones y los precios que se muestran en la página. Particularmente yo trabajé en la parte visual de la landing, y ayudando circunstancialmente a integrar el backoffice con la página.<a target="_blank" href="https://www.puertos.ar/" class="courseLink">Podés ver el proyecto acá</a>.</p>
+            </div>
+            <div class="generalInfoContainer">
+              <h3 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                <span class="block">Tecnologías usadas</span>
+              </h3>
+              <p>Al ser unicamente una landing page con pocas funcionalidades, la página esta hecha principalmente con HTML y CSS, utilizando la herramienta de los archivos .HBS para llevar a cabo una mejor modularización de los componentes de la página. Para las pocas integraciones y funcionalidades que tiene se utilizó JavaScript nativo. Es una aplicación monolítica, ya que tanto la landing page (el front) como el backoffice desde donde se carga la información que se muestra en la landing estan en el mismo repositorio.</p>
+            </div>
+          </div>
+        </div>
+        <div class="projectMainContainer">
+          <div class="projectTitleContainer">
+            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              <span class="block text-indigo-600">Club Qualia</span>
+            </h2>
+          </div>
+          <div class="projectImgContainer">
+            <img src="./assets/img/banner_qualia.png" alt="Club Qualia"/>
+          </div>
+          <div class="projectInfoContainer">
+            <div class="generalInfoContainer">
+              <h3 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                <span class="block">Descripción general</span>
+              </h3>
+              <p>Club Qualia es una plataforma de cupones para los clientes de Qualia Seguros. En ella los clientes de Qualia pueden buscar entre numerosos descuentos en distintos rubros y locales por todo Buenos Aires, tanto para canjearlos Presencialmente como online. La página esta integrada mediante una API a un backoffice, tambien administrado por Qualia, en el cual el personal de la empresa puede cargar y borrar cupones para que luego aparezcan en el front. Particularmente yo trabaje en la parte visual de la página. Maquetando y haciendo cambios visuales a medida que el cliente lo iba solicitando. Tambien circunstancialmente modifique algunas cosas de funcionalidad como la integración con la API. <a target="_blank" href="https://club.qualiaseguros.com/" class="courseLink">Podés ver el proyecto acá</a>.</p>
+            </div>
+            <div class="generalInfoContainer">
+              <h3 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                <span class="block">Tecnologías usadas</span>
+              </h3>
+              <p>El proyecto esta construido con React Js, utilizando Next Js para la parte del SEO y Bootstrap y SASS para la parte visual y de maquetación.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+  </main>
+  <div class="bg-gray-50">
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+      <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+        <span class="block">Mis redes</span>
+        <span class="block text-indigo-600">Contactame</span>
+      </h2>
+      <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0 footerContainer">
+        <a target="_blank" href="https://github.com/NeyenVrhovski">
+            <img src="./assets/icons/github-icon.png" alt="Github"/>
+        </a>
+        <a target="_blank" href="https://www.facebook.com/neyen.vrhovski">
+          <img src="./assets/icons/facebook-icon.png" alt="Facebook"/>
+        </a>
+        <a target="_blank" href="https://twitter.com/neyenvrhovski">
+          <img src="./assets/icons/twitter-icon.png" alt="Twitter"/>
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/neyen-vrhovski-1138a3224/">
+          <img src="./assets/icons/linkedin-icon.png" alt="Linkedin"/>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/neyenvrhovski/">
+          <img src="./assets/icons/instagram-icon.png" alt="Instagram"/>
+        </a>
+        <a href="mailto:neyenvrhovski@gmail.com">
+          <img src="./assets/icons/mail-icon.png" alt="Email"/>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
