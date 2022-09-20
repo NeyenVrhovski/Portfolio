@@ -28,7 +28,7 @@
 }
 
 .footerContainer a {
-  margin: 0 10px 0 0;
+  margin: 0 2vw 0 0;
 }
 
 .aboutMainContainer {
@@ -43,6 +43,20 @@
   height: auto;
   border-radius: 100%;
   overflow: hidden;
+}
+.aboutMainContainer .tecnologiesContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  min-height: 100px;
+  margin: 0 0 20px 0;
+}
+.aboutMainContainer .tecnologiesContainer img {
+  margin: 0 20px 10px 0;
+  width: 64px;
+  height: 64px;
 }
 .aboutMainContainer .aboutTextContainer {
   width: 90%;
@@ -65,11 +79,16 @@
 }
 .aboutMainContainer a button {
   white-space: nowrap;
-  margin: 0;
+  margin: 0 0 40px 0;
 }
 
 .footerContainer a {
-  margin: 0 10px 0 0;
+  margin: 0 2vw 0 0;
+}
+
+.footerContainer a img{
+  width: 40px;
+  height: 40px;
 }
 
 .projectsSection {
@@ -121,7 +140,7 @@
 }
 
 .footerContainer a {
-  margin: 0 10px 0 0;
+  margin: 0 2vw 0 0;
 }
 
 .contactMainContainer {
@@ -153,13 +172,13 @@
   margin: 30px 0 0 0;
 }
 .contactMainContainer .socialMediaContainer .socialMediaIcon {
-  width: auto;
-  height: auto;
-  margin: 30px 0 0 0;
+  width: 200px;
+  height: 200px;
+  margin: 30px 0 30px 0;
 }
 
 .footerContainer a {
-  margin: 0 10px 0 0;
+  margin: 0 2vw 0 0;
 }
 
 @-webkit-keyframes hvr-wobble-vertical {
